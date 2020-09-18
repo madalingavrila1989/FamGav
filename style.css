@@ -5,6 +5,68 @@ body, html {
     background-size: cover;
 }
 
+.nav-bar {
+	display: flex;
+	background-color: green;
+	align-items: baseline;
+}
+
+.nav-bar:hover {
+	box-shadow:rgba(0,0,0,1) 0px 5px 15px, inset rgba(0,0,0,0.25) 0px -10px 20px;
+}
+
+.despre, .catre, .push{
+	padding: 20px;
+	background-color: yellow;
+	border-radius: 80px;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+
+.despre:hover {
+	box-shadow:rgba(0,0,0,1) 0px 5px 15px, inset rgba(0,0,0,0.25) 0px -10px 20px;
+} 
+
+.catre:hover {
+	box-shadow:rgba(0,0,0,1) 0px 5px 15px, inset rgba(0,0,0,0.25) 0px -10px 20px;
+} 
+
+.push:hover {
+	box-shadow:rgba(0,0,0,1) 0px 5px 15px, inset rgba(0,0,0,0.25) 0px -10px 20px;
+} 
+
+.titlu {
+	background-color: green;
+	justify-content: center;
+	width: 100%
+}
+.catre {
+	margin-left: 10px;
+}
+
+.main-nav {
+	display: flex;
+	list-style: none;
+	color: #FCE840;
+	align-items: baseline;
+}
+
+.push {
+	margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 h1 {
 	font-size: 3rem;
@@ -16,16 +78,7 @@ h1 {
   --animate-duration: 2s;
 }
 
-.buffer {
-	height: 530px;
-} 
 
-
-hr {
-	border-color: green;
-	border-width: 3px;
-	max-width: 100px; 
-}
 
 .btn {
 	font-weight: 700;
